@@ -6,3 +6,6 @@ const images = [
     './assets/5.jpg',
     './assets/6.jpg'
 ]
+
+image = document.querySelector('.image')
+image.src = images[0]
